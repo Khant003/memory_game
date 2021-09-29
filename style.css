@@ -1,0 +1,81 @@
+html {
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+    background-color: #ffddd2;
+
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 308px;
+    width: 408px;
+    margin: 30px auto;
+}
+.img {
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    border-radius: 5px;
+}
+.img:hover {
+    opacity: 0.8;
+    transform: scale(0.97);
+}
+.win-img{
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    /* margin-left: 25%; */
+}
+.congrat {
+    display: none;
+    margin: 30px auto;
+    align-items: center;
+}
+p{
+    color: #006d77;
+    font-weight: 900
+}
+h1{
+    margin: 50px;
+    font-weight: bolder;
+    color :#f72585;
+ 
+}
+h2 {
+    font-weight: 800;
+    margin-top: 20px;
+    color: #006d77;
+}
+h3{
+    color: #006d77;
+    display: none
+}
+h4{
+    color :#006d77;
+}
+img {
+    margin: 0 auto;
+}
+button {
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+}
+.try-again{
+    transform: scale(2.5);
+    color:rgb(182, 0, 182);
+}
+.try-again:active{
+    transform: scale(0.9);
+}
+@media (max-width:700px) {
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        height: 408px;
+        width: 308px;
+        margin: 10px auto;
+    }
+}
